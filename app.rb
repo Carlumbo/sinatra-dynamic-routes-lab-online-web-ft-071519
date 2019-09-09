@@ -4,5 +4,7 @@ class App < Sinatra::Base
   # Write your code here!
   
   get '/reversenmae/:name' do 
+    params[:name].reverse
+  end 
     
 end
